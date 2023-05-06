@@ -1,0 +1,33 @@
+[
+    {
+        "classType": "limit",
+        "classData": {
+            "name": "GCMS-Service",
+            "forPlayer": true,
+            "static": false,
+            "params": [
+                {
+                    "name": "Service",
+                    "type": "String",
+                    "required": true
+                }
+            ]
+        }
+    },
+    {
+        "classType": "limit",
+        "classData": {
+            "name": "GCMS-Member",
+            "forPlayer": true,
+            "static": false,
+            "params": [
+                {
+                    "name": "GroupName",
+                    "type": "String",
+                    "required": false,
+                    "default": ""
+                }
+            ]
+        }
+    }
+]
