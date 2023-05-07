@@ -2,12 +2,17 @@
     {
         "classType": "limit",
         "classData": {
+            "desc": "Проверяет наличие у игрока указанной услуги.",
+            "url": "https://github.com/ArKaNeMaN/VipM-L-GameCMS",
+
             "name": "GCMS-Service",
             "forPlayer": true,
             "static": false,
             "params": [
                 {
                     "name": "Service",
+                    "desc": "Название услуги, наличие которой будет проверяться",
+
                     "type": "String",
                     "required": true
                 }
@@ -17,12 +22,17 @@
     {
         "classType": "limit",
         "classData": {
+            "desc": "Проверяет наличие у игрока зарегистрированного аккаунта на сайте сервера. Также, можно проверять принадлежность игрока к какой-либо группе пользователей.",
+            "url": "https://github.com/ArKaNeMaN/VipM-L-GameCMS",
+
             "name": "GCMS-Member",
             "forPlayer": true,
             "static": false,
             "params": [
                 {
                     "name": "GroupName",
+                    "desc": "Название группы на сайте, к которой должен относиться игрок. Если не указывать, будет проверяться только регистрация",
+
                     "type": "String",
                     "required": false,
                     "default": ""
